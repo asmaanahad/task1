@@ -1,0 +1,80 @@
+<html>
+
+<head></head>
+
+<body>
+    <form action="">
+        <fieldset style="background-color: crimson;border: none;">
+            <legend style="color: black;background-color: cornflowerblue;">Personal Data</legend>
+            <br/>
+            <fieldset style="background-color: darkorange;border: none;">
+                <legend style="color: black;background-color:cornflowerblue ;width: 70;height: 60;padding-top: 40;">YourName</legend>
+                <label for="firstname" style="display:inline-block;width: 100px;">first name :</label>
+                <input type="text" id="firstname" name="firstname" placeholder="ex_ahmed"><br />
+                <label for="secondname" style="display:inline-block;width: 100px;">second name :</label>
+                <input type="text" id="secondname " name="secondname " placeholder="ex_bahnasy">
+            </fieldset>
+
+            <br/>
+            <label for="phone" style="display:inline-block;width: 100px;">your phone :</label>
+            <input type="tel" id="phone" name="phone">
+            <br/>
+            <label for="Email" style="display:inline-block;width: 100px;">Email :</label>
+            <input type="email" id="email" name="email">
+            <br/>
+            <label for="password" style="display:inline-block;width: 100px;">password :</label>
+            <input type="password" id="password" name="password">
+            <br/>
+            <label for="re-password" style="display:inline-block;width: 100px;">re-password :</label>
+            <input type="password" id="re-password" name="re-password">
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <input type="radio" value="Male" id="male" name="gender">
+            <label for="male">Male</label>
+            <br/>
+            <input type="radio" value="Female" id="female" name="gender">
+            <label for="female">Female</label>
+            <br/>
+            <br/>
+
+
+            <input type="checkbox" value="Student" id="Student" name="status">
+            <label for="Student">Student</label><br>
+            <input type="checkbox" value="Graduated" id="Graduated" name="status">
+            <label for="Graduated">Graduated</label><br>
+            <br/><br/>
+            <select name="university" id="universities">
+                <optgroup label="governmental university">
+                    <option value="Menofia">Menofia</option>
+
+                    <option value="Banha">Banha</option>
+                    <option value="cairo">Cairo</option>
+                </optgroup>
+                <optgroup label="private university">
+                    <option selected value="AUC">AUC</option>
+
+                    <option value="BUE">BUE</option>
+                    <option value="MIU">MIU</option>
+                </optgroup>
+
+            </select>
+            <br/>
+
+            <button type="submit"
+                style="background-image: url('Stone.jpg'); background-size: cover; background-repeat: no-repeat; color: white; font-size: 16px;text-align: center;">
+                SUBMIT
+            </button>
+            <button type="submit"><img src="Stone.jpg" alt=""></button>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+        </fieldset>
+    </form>
+</body>
+
+</html>
